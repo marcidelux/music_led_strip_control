@@ -153,7 +153,7 @@ else
 fi
 
 # Install/update modules from requirements.txt.
-sudo pip3 install --no-cache-dir --no-input --upgrade -r ${PROJ_DIR}/requirements.txt
+sudo pip3 install --no-cache-dir --no-input --upgrade --break-system-packages -r ${PROJ_DIR}/requirements.txt
 
 
 # Setup microphone:
